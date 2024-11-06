@@ -40,7 +40,7 @@ startStopBtn.addEventListener("click", () => {
   } else {
     startStopwatch();
     startStopBtn.textContent = "Stop";
-    display.className += " newDisplay";
+    display.className = " newDisplay";
   }
   isRunning = !isRunning;
 });
@@ -50,7 +50,7 @@ resetBtn.addEventListener("click", () => {
   seconds = 0;
   minutes = 0;
   display.textContent = "00:00";
-  display.className = "display"
+  display.className = "display";
   startStopBtn.textContent = "Start";
   isRunning = false;
 });

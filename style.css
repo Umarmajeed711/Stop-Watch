@@ -50,19 +50,19 @@ h1 {
         box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
     }
     25%{
-        border-color:rgb(44, 154, 228);
-        box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+      border-color:rgb(135, 206, 235);
+      box-shadow: 0 0 20px rgba(135, 206, 235,0.8);
     }
     50%{
-        border-color:skyblue;
+      border-color:rgb(44, 154, 228);
         box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
     }
     75%{
-        border-color:rgb(66, 163, 228);
-        box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+      border-color:skyblue;
+      box-shadow: 0 0 20px rgba(135, 206, 235,0.8);
     }
     100%{
-        border-color:skyblue;
+      border-color:rgb(66, 163, 228);
         box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
     }
 }  
